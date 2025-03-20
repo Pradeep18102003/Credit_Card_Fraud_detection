@@ -1,0 +1,13 @@
+prefix=E:/Machine learning/Projects/Git/Credit_Card_Fraud_detection/venv/Library
+exec_prefix=E:/Machine learning/Projects/Git/Credit_Card_Fraud_detection/venv/Library
+libdir=E:/Machine learning/Projects/Git/Credit_Card_Fraud_detection/venv/Library/lib
+sharedlibdir=E:/Machine learning/Projects/Git/Credit_Card_Fraud_detection/venv/Library/lib
+includedir=E:/Machine learning/Projects/Git/Credit_Card_Fraud_detection/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
