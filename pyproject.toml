@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "Credit card fraud detection"
+version = "0.0.1"
+dependencies = [
+  "numpy",
+  "pandas",
+  "matplotlib",
+  "seaborn",
+  "scikit-learn"
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "Pradeep Kumar", email = "pradeep18kumar10@gmail.com"}
+]
+
+
+
+[project.urls]
+
+Repository = "https://github.com/Pradeep18102003/Credit_Card_Fraud_detection"
