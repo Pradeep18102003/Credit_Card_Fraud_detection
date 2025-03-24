@@ -3,4 +3,6 @@ pandas
 scikit-learn
 matplotlib
 seaborn
+imblearn.over_sampling
+xgboost
 -e .
