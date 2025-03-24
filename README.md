@@ -11,15 +11,36 @@ The project utilizes the **Credit Card Fraud Detection Dataset**, consisting of 
 The dataset is highly imbalanced, with fraudulent transactions being a minority compared to legitimate transactions. Appropriate data preprocessing techniques have been used to address this imbalance.
 
 ## 📂 Project Structure
-The project is modularized into the following key components:
+The project is organized as follows:
 
 ```
 .
-├── data_ingestion.py      # Handles data loading and preprocessing
-├── data_transformation.py # Applies feature engineering and scaling
-├── model_trainer.py       # Defines and trains the machine learning models
-└── credit-card-fraud-detection.ipynb  # Main Jupyter Notebook
+├── notebook
+│    └── credit-card-fraud-detection.ipynb  # Main Jupyter Notebook (contains the entire code)
+│
+└── src
+     ├── components
+     │      ├── __init__.py
+     │      ├── data_ingestion.py          # Empty due to computation limitations
+     │      ├── data_transformation.py     # Empty due to computation limitations
+     │      └── model_trainer.py           # Empty due to computation limitations
+     │
+     ├── pipeline
+     │      └── __init__.py
+     │
+     ├── exception.py                      # Custom exception handling
+     ├── logger.py                         # Logging module for debugging
+     ├── utils.py                          # Utility functions
+     └── .gitignore
+
+├── pyproject.toml
+├── requirements.txt                       # Python dependencies
+└── README.md
 ```
+
+### 💻 Note:
+The **entire code** for data ingestion, transformation, and model training is contained within the Jupyter Notebook (`credit-card-fraud-detection.ipynb`).
+The corresponding files under `src/components` are currently **empty due to hardware computation limitations**.
 
 ## 📈 Model and Methodology
 
@@ -46,7 +67,7 @@ The following are the model accuracies achieved:
 - **Gradient Boosting**: **97.12%**
 
 ## 🖥️ Computation Constraints
-Due to **hardware limitations**, the project structure and scripts are complete but **full model training and evaluation on large datasets were not performed locally**. However, the code is optimized for execution on higher-compute environments (e.g., Google Colab, Kaggle Notebooks).
+Due to **hardware limitations**, only the Jupyter Notebook is fully implemented while the modular Python scripts (`src/components`) remain empty. The project is structured to be easily scalable on higher-compute environments (e.g., Google Colab, Kaggle Notebooks).
 
 ## 🚀 How to Run the Project
 
@@ -69,7 +90,7 @@ Due to **hardware limitations**, the project structure and scripts are complete 
 
 4. Execute the Jupyter Notebook:
    ```bash
-   jupyter notebook credit-card-fraud-detection.ipynb
+   jupyter notebook notebook/credit-card-fraud-detection.ipynb
    ```
 
 ## 📌 Future Improvements
@@ -78,5 +99,4 @@ Due to **hardware limitations**, the project structure and scripts are complete 
 - Explore deployment on cloud platforms.
 
 ## 📧 Contact
-If you have any questions or feedback, feel free to reach out via pradeep18kumar10@gmail.com or linkedin: https://www.linkedin.com/in/pradeep-kumar-bba090320/.
-
+If you have any questions or feedback, feel free to reach out via email: pradeep18kumar10@gmail.com linkedin: https://www.linkedin.com/in/pradeep-kumar-bba090320/.
