@@ -99,4 +99,6 @@ Due to **hardware limitations**, only the Jupyter Notebook is fully implemented 
 - Explore deployment on cloud platforms.
 
 ## 📧 Contact
-If you have any questions or feedback, feel free to reach out via email: pradeep18kumar10@gmail.com linkedin: https://www.linkedin.com/in/pradeep-kumar-bba090320/.
+- If you have any questions or feedback, feel free to reach out via email: pradeep18kumar10@gmail.com  
+- LinkedIn: [Pradeep Kumar](https://www.linkedin.com/in/pradeep-kumar-bba090320/)
+
